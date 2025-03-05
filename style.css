@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: teal;
+    cursor: crosshair;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-evenly;
+    height: 600px;
+    width: 600px;
+}
+
+.lamp {
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 10px;
+    height: 70px;
+    width: 70px;
+    background-color: lightgray;
+}
+
+.lightOn {
+    background-color: yellow;
+}
+
+.timeDisplay {
+    font-size: 20px;
+}
+
+#timeList {
+    font-size: 15px;
+}
